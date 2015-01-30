@@ -1,0 +1,28 @@
+html {
+  background: url(/images/erie-bayfront.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main {
+  padding-top: 200px;
+  @include outer-container;
+  color: white;
+}
+
+.page-header {
+  @include span-columns(8);
+  @include shift(2);
+  text-align: center;
+}
+
+.content {
+  @include span-columns(8);
+  @include shift(2);
+  text-align: center;
+  p {
+    text-align: justify;
+  }
+}
