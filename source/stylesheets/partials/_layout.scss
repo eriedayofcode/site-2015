@@ -1,3 +1,6 @@
+$tablet: new-breakpoint(min-width 500px 4);
+$mobile: new-breakpoint(max-width 500px 4);
+
 html {
   background: url(/images/erie-bayfront.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -7,20 +10,38 @@ html {
 }
 
 #main {
-  padding-top: 200px;
+  padding-top: 80px;
   @include outer-container;
   color: white;
 }
 
 .page-header {
-  @include span-columns(8);
-  @include shift(2);
+  @include media($tablet) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+
+  @include media($mobile) {
+    @include fill-parent;
+  }
+
   text-align: center;
+  margin-bottom: 50px;
+
+  .title {
+      font-size: 5rem;
+  }
 }
 
 .content {
-  @include span-columns(8);
-  @include shift(2);
+  margin-bottom: 40px;
+  @include media($tablet) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+  @include media($mobile) {
+    @include fill-parent;
+  }
   text-align: center;
   p {
     text-align: justify;

@@ -1,0 +1,62 @@
+$light-color: #FCBD3D;
+
+.landing-page {
+    @include fill-parent();
+    border-radius: 20px;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 15px;
+}
+
+.photo-credit {
+  font-weight: normal;
+
+  a {
+      color: $light-color;
+
+      &:hover {
+          color: lighten($light-color, 10%);
+      }
+  }
+}
+
+.event-info {
+    .date {
+        font-size: 3rem;
+        margin: 25px;
+    }
+    .location {
+        font-size: 2.5rem;
+        margin: 25px;
+    }
+    .venue {
+        font-size: 2rem;
+        margin: 25px;
+    }
+}
+
+.mailing-list-signup {
+    @include fill-parent();
+    margin: 40px auto;
+    .signup-info {
+    }
+    .button {
+        background-color: $light-color;
+        border-radius: none;
+        border: none;
+        display: inline-block;
+        line-height: 1rem;
+        color: #111;
+        height: 2.5rem;
+        min-width: 28%;
+
+        &:hover {
+            background-color: lighten($light-color, 15%);
+        }
+    }
+    .email {
+        width: 70%;
+        height: 2.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
