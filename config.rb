@@ -14,7 +14,10 @@ require 'yaml'
 # Page options, layouts, aliases and proxies
 ###
 
+page 'about.html'
 page 'sponsorship.html'
+page 'venue.html'
+page 'codeofconduct.html'
 # Per-page layout changes:
 #
 # With no layout
