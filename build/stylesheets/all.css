@@ -60,7 +60,7 @@ html {
 /* line 45, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
 .content {
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 15px;
   margin-bottom: 40px;
   text-align: center; }
@@ -82,39 +82,45 @@ html {
   /* line 58, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
   .content p {
     text-align: justify; }
+  /* line 62, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .content h2, .content h3, .content h4, .content h5 {
+    color: #FCBD3D; }
 
 /* line 3, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .landing-page {
   width: 100%; }
+  /* line 5, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  .landing-page h2, .landing-page h3, .landing-page h4, .landing-page h5 {
+    color: white; }
 
-/* line 7, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 10, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .photo-credit {
   font-weight: normal; }
-  /* line 10, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  /* line 13, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
   .photo-credit a {
     color: #FCBD3D; }
-    /* line 13, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    /* line 16, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
     .photo-credit a:hover {
       color: #fdce6f; }
 
-/* line 20, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 23, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .event-info .date {
   font-size: 3rem;
   margin: 25px; }
-/* line 24, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 27, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .event-info .location {
   font-size: 2.5rem;
   margin: 25px; }
-/* line 28, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 31, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .event-info .venue {
   font-size: 2rem;
   margin: 25px; }
 
-/* line 34, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 37, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .mailing-list-signup {
   width: 100%;
   margin: 40px auto; }
-  /* line 39, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  /* line 42, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
   .mailing-list-signup .button {
     background-color: #FCBD3D;
     border-radius: none;
@@ -124,37 +130,41 @@ html {
     color: #111;
     height: 2.5rem;
     min-width: 28%; }
-    /* line 49, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    /* line 52, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
     .mailing-list-signup .button:hover {
       background-color: #fdd788; }
-  /* line 53, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  /* line 56, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
   .mailing-list-signup .email {
     width: 70%;
     height: 2.5rem;
     padding-left: 10px;
     padding-right: 10px; }
 
-/* line 7, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+/* line 8, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+.sponsorship .reasons li {
+  text-align: left;
+  line-height: 2em; }
+/* line 13, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
 .sponsorship .sponsorship-table {
   background-color: rgba(255, 255, 255, 0.8);
   color: #111; }
-/* line 12, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+/* line 18, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
 .sponsorship th, .sponsorship td {
   color: #111;
   padding: 10px; }
-/* line 17, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+/* line 23, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
 .sponsorship th {
   background-color: #999; }
-/* line 21, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+/* line 27, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
 .sponsorship td {
   text-align: left;
   border: 1px solid #999; }
-  /* line 22, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+  /* line 28, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
   .sponsorship td:first-child {
     border-left: none; }
-  /* line 26, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+  /* line 32, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
   .sponsorship td:last-child {
     border-right: none; }
-  /* line 33, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
+  /* line 39, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
   .sponsorship td.level {
     font-weight: bold; }
