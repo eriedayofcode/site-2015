@@ -1,5 +1,6 @@
 $tablet: new-breakpoint(min-width 500px 4);
 $mobile: new-breakpoint(max-width 500px 4);
+$light-color: #FCBD3D;
 
 html {
   background: url(/images/erie-bayfront.jpg) no-repeat center center fixed;
@@ -7,6 +8,14 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  a {
+      color: $light-color;
+
+      &:hover {
+          color: lighten($light-color, 10%);
+      }
+  }
 }
 
 #main {
@@ -34,6 +43,9 @@ html {
 }
 
 .content {
+  border-radius: 20px;
+  background-color: rgba(0,0,0, 0.8);
+  padding: 15px;
   margin-bottom: 40px;
   @include media($tablet) {
     @include span-columns(8);

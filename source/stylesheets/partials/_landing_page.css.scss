@@ -2,9 +2,6 @@ $light-color: #FCBD3D;
 
 .landing-page {
     @include fill-parent();
-    border-radius: 20px;
-    background-color: rgba(0,0,0, 0.8);
-    padding: 15px;
 }
 
 .photo-credit {

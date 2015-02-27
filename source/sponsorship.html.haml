@@ -1,0 +1,42 @@
+---
+title: Sponsorship Information | Erie Day of Code
+---
+
+.sponsorship
+  %h1 Sponsorship Information
+
+  %h2 Why Sponsor Erie Day of Code?
+  %ul
+    %li Reach a number of the region's most enthusiastic developers
+    %li Tables available in the main room for the event
+    %li Support the Erie open source and web development community
+    %li Drive interaction and communication between developers, students, and companies
+    %li Opportunity to find the next great developer to grow your team
+    %li Inclusive and welcoming environment protected by an anti-harassment policy
+    %li Reach a number of the region's most enthusiastic developers
+    %li We want to make sure our sponsors get their money’s worth. Sponsoring Erie Day of Code forms a personal relationship with us, the organizers. We’re always available to chat!
+
+
+  %h2 Sponsorship Contact
+  Please contact our sponsorship team at #{mail_to("sponsorship@eriedayofcode.com")}
+
+  %h2 Sponsorship Packages
+
+  %table.sponsorship-table
+    %thead
+      %tr
+        %th Level
+        %th Price
+        %th Benefits
+        %th Tickets Incl.
+        %th Spots Available
+    %tbody
+      - packages.each do |p|
+        %tr
+          %td.level= p.level
+          %td= p.price
+          %td
+            :markdown
+              #{p.benefits}
+          %td= p.tickets
+          %td= p.spots
