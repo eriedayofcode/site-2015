@@ -1,0 +1,36 @@
+- level: Platinum
+  price: Talk to us!
+  benefits: |
+    - Named lunch sponsor
+    - Talk to us!
+  tickets: Talk to us!
+  spots: 2
+- level: Gold
+  price: $500
+  benefits: |
+    - Listed on website
+    - Mention on Twitter
+    - Mention at event
+    - Banner hung in venue
+    - Name and URL included in email blasts to attendees
+    - Booth or Table setup in main room for interaction/swag
+    - Logo in Sponsor slidedeck
+  tickets: 5
+  spots: 3
+- level: Silver
+  price: $250
+  benefits: |
+    - Listed on website
+    - Mention on Twitter
+    - Mention at event
+    - Banner hung in venue
+    - Name and URL included in email blasts to attendees
+  tickets: 2
+  spots: 5
+- level: Bronze
+  price: $100
+  benefits: |
+    - Listed on website
+    - Mention on Twitter
+  tickets: 1
+  spots: 10

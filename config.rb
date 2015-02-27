@@ -1,3 +1,6 @@
+require 'ostruct'
+require 'yaml'
+
 ###
 # Compass
 ###
@@ -11,6 +14,7 @@
 # Page options, layouts, aliases and proxies
 ###
 
+page 'sponsorship.html'
 # Per-page layout changes:
 #
 # With no layout
@@ -46,6 +50,14 @@ end
 #     "Helping"
 #   end
 # end
+
+helpers do
+  def packages
+    YAML.load_file('sponsorship_packages.yml').map do |package|
+      OpenStruct.new package
+    end
+  end
+end
 
 set :css_dir, 'stylesheets'
 
