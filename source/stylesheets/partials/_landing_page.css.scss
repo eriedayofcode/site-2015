@@ -2,6 +2,9 @@ $light-color: #FCBD3D;
 
 .landing-page {
     @include fill-parent();
+    h2, h3, h4, h5 {
+      color: white;
+    }
 }
 
 .photo-credit {

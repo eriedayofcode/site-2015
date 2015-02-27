@@ -4,6 +4,12 @@ $table-text: #111;
 $light-color: #FCBD3D;
 
 .sponsorship {
+  .reasons {
+    li {
+      text-align: left;
+      line-height: 2em;
+    }
+  }
   .sponsorship-table {
     background-color: $table-bg;
     color: $table-text;
