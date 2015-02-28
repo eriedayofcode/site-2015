@@ -15,6 +15,7 @@ require 'yaml'
 ###
 
 page 'sponsorship.html'
+page 'venue.html'
 # Per-page layout changes:
 #
 # With no layout
