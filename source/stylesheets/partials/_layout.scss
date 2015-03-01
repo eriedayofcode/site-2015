@@ -1,5 +1,6 @@
 $tablet: new-breakpoint(min-width 500px 4);
 $mobile: new-breakpoint(max-width 500px 4);
+$content-bg: rgba(0,0,0, 0.9);
 $light-color: #FCBD3D;
 
 html {
@@ -27,6 +28,22 @@ html {
   padding-top: 80px;
   @include outer-container;
   color: white;
+}
+
+.site-nav {
+  padding-left: 0;
+  margin-left: 0;
+
+  font-size: 1.5rem;
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    background-color: $content-bg;
+    padding: 20px;
+  }
 }
 
 .page-header {
