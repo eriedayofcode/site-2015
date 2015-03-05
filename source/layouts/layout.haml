@@ -18,15 +18,17 @@
       ga('send', 'pageview');
 
   %body{:class => page_classes}
-    #main
-      %header.page-header
-        %h1.title Erie Day of Code
-        %nav
-          %ul.site-nav
-            %li= link_to 'Home', '/'
-            %li= link_to 'Venue', '/venue.html'
+    %nav
+      %ul.site-nav
+        %li.nav= link_to 'Home', '/'
+        %li.nav= link_to 'Venue', '/venue.html'
             %li= link_to 'Schedule', '/schedule.html'
             %li= link_to 'Speakers', '/speakers.html'
             %li= link_to 'Contact', '/contact.html'
+        %li.social= link_to 'http://facebook.com/eriedayofcode' do image_tag 'facebook.png' end
+        %li.social= link_to 'http://twitter.com/eriedayofcode' do image_tag 'twitter.png' end
+    #main
+      %header.page-header
+        %h1.title Erie Day of Code
 
       .content= yield
