@@ -16,6 +16,7 @@ require 'yaml'
 
 page 'sponsorship.html'
 page 'venue.html'
+page 'speakers.html'
 # Per-page layout changes:
 #
 # With no layout
@@ -56,6 +57,12 @@ helpers do
   def packages
     YAML.load_file('sponsorship_packages.yml').map do |package|
       OpenStruct.new package
+    end
+  end
+
+  def speakers
+    YAML.load_file('speakers.yml').map do |speaker|
+      OpenStruct.new speaker
     end
   end
 end

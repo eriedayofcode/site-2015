@@ -1,0 +1,25 @@
+- name: Chris Geihsler
+  image: /images/speakers/chris-geihsler.jpg
+  about: Chris has been writing code professionally for 12 years in the healthcare and education industries using C#, Ruby, and JavaScript. He currently works at Think Through Math where he builds a product that helps more than 3,000,000 kids get better at math. At home, he tries to fend off his four cats while he hacks on projects in Node, Elixir, and Go. His cats usually win.
+  talk_title: N/A
+  abstract: N/A
+- name: Carol Nichols
+  image: /images/speakers/carol-nichols.jpg
+  about: Carol is the hammer of justice
+  talk_title: N/A
+  abstract: N/A
+- name: Jeff Koenig
+  image: /images/speakers/jeff-koenig.jpg
+  about: Jeff will automate all the things
+  talk_title: N/A
+  abstract: N/A
+- name: Matthew Machuga
+  image: /images/speakers/matthew-machuga.jpg
+  about: Machuga!
+  talk_title: N/A
+  abstract: N/A
+- name: Oto Hlincik
+  image: /images/speakers/oto-hlincik.jpg
+  about: Oto!
+  talk_title: N/A
+  abstract: N/A
