@@ -11,9 +11,10 @@ title: Speakers | Erie Day of Code
 
   - speakers.each do |speaker|
     .speaker
-      = image_tag(speaker.image, class: 'speaker-image')
+      = image_tag(speaker.image, class: 'speaker-img')
       %h2.speaker-name= speaker.name
-      %h3.talk-title= speaker.talk_title
       %p.about= speaker.about
+      %h2.talk-title= speaker.talk_title
       %p.abstract= speaker.abstract
 
+  %h2 More to be announced soon!

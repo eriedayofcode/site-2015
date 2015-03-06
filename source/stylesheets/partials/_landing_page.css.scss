@@ -1,5 +1,3 @@
-$light-color: #FCBD3D;
-
 .landing-page {
     @include fill-parent();
     h2, h3, h4, h5 {
@@ -11,10 +9,10 @@ $light-color: #FCBD3D;
   font-weight: normal;
 
   a {
-      color: $light-color;
+      color: $secondary-color;
 
       &:hover {
-          color: lighten($light-color, 10%);
+          color: darken($secondary-color, 10%);
       }
   }
 }
@@ -40,7 +38,7 @@ $light-color: #FCBD3D;
     .signup-info {
     }
     .button {
-        background-color: $light-color;
+        background-color: $secondary-color;
         border-radius: none;
         border: none;
         display: inline-block;
@@ -50,7 +48,7 @@ $light-color: #FCBD3D;
         min-width: 28%;
 
         &:hover {
-            background-color: lighten($light-color, 15%);
+            background-color: darken($secondary-color, 15%);
         }
     }
     .email {

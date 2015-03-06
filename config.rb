@@ -61,9 +61,9 @@ helpers do
   end
 
   def speakers
-    YAML.load_file('speakers.yml').map do |speaker|
+    YAML.load_file('speakers.yml').map { |speaker|
       OpenStruct.new speaker
-    end
+    }.select(&:show)
   end
 end
 

@@ -1,25 +1,34 @@
+- name: Carol (Nichols || Goulding)
+  image: /images/speakers/carol-nichols.jpg
+  about: Carol is currently the Hammer of Justice at Think Through Math in the lovely Pittsburgh, PA. She loves hugs, connecting people, Rust, Ruby, vinyl, percussion, home improvement, and being disappointed by Pittsburgh sports. Her twitter handle is @carols10cents and there are TWO jokes contained within its depths.
+  talk_title: How to Start Contributing to Open Source
+  abstract: Starting to contribute to open source can be overwhelming. The tips in this talk will help you find a path to contributing with less anxiety and confusion. Not sure what project to contribute to? Examine the OSS projects you use for recent activity, small open issues, and friendly maintainers. Not sure what to work on? Documentation, tests, and bug triaging are important contributions to open source that are much appreciated, often overlooked, and usually smaller in scope than a code change. Learn about Pull Request etiquette, what happens after you send in your work, and what it's like in a maintainer's shoes to take the mystery out of the process. Help make the open source world a better place!
+  show: true
+
 - name: Chris Geihsler
   image: /images/speakers/chris-geihsler.jpg
   about: Chris has been writing code professionally for 12 years in the healthcare and education industries using C#, Ruby, and JavaScript. He currently works at Think Through Math where he builds a product that helps more than 3,000,000 kids get better at math. At home, he tries to fend off his four cats while he hacks on projects in Node, Elixir, and Go. His cats usually win.
-  talk_title: N/A
-  abstract: N/A
-- name: Carol Nichols
-  image: /images/speakers/carol-nichols.jpg
-  about: Carol is the hammer of justice
-  talk_title: N/A
-  abstract: N/A
+  talk_title: What .NET can Learn from Ruby (and vice versa.)
+  abstract:
+  show: true
+
+- name: Matthew Machuga
+  image: /images/speakers/matthew-machuga.png
+  about: Machuga is an Erie native with a strong love of building software and communities.  He currently works Think Through Math, organizes Erie.rb, and is a committee member for Erie Day of Code.  Even more than is creative endeavors, Matt loves spending time with his wife and daughter.
+  talk_title: Introduction to Effectively Using Git
+  abstract: A hands on workshop on how to utilize the verison control system, git, for more than just a place to dump code.  Learn to how to create feature branches and merge them back in when the feature is ready.  Discover how to write effective commit messages that will allow you to easily search and discover why something was changed in the past.  Also learn how git can get you out of trouble quickly and easily.
+  show: true
+
 - name: Jeff Koenig
   image: /images/speakers/jeff-koenig.jpg
   about: Jeff will automate all the things
   talk_title: N/A
   abstract: N/A
-- name: Matthew Machuga
-  image: /images/speakers/matthew-machuga.jpg
-  about: Machuga!
-  talk_title: N/A
-  abstract: N/A
+  show: false
+
 - name: Oto Hlincik
   image: /images/speakers/oto-hlincik.jpg
   about: Oto!
   talk_title: N/A
   abstract: N/A
+  show: false

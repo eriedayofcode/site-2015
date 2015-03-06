@@ -2,7 +2,9 @@
 
 @import "bourbon";
 @import "neat";
+@import 'variables';
 
 @import 'partials/layout';
 @import 'partials/landing_page';
 @import 'partials/sponsorship_page';
+@import 'partials/speakers_page';
