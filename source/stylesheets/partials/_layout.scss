@@ -9,7 +9,8 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  #background-position: 0px 85px;
+  background-position: 0px 15px;
+  background-color: black;
 
   a {
       color: $light-color;
@@ -71,11 +72,13 @@ html {
 
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 100px;
 
   .title {
-      font-size: 4.5rem;
-      text-align: right;
+      @include span-columns(8);
+      @include shift(2);
+      font-size: 5rem;
+      color: white;
+      text-shadow: 4px 4px #99003D;
   }
 }
 
@@ -100,6 +103,7 @@ html {
     color: $light-color;
   }
 }
+
 .content-landing {
   border-radius: 20px;
   background-color: rgba(0,0,0, 0.9);
