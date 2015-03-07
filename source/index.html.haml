@@ -2,23 +2,39 @@
 title: Erie Day of Code | Sign up for updates!
 ---
 .landing-page
-  .event-info
+  %section.event-info
     %h2.date April 25, 2015
-    %h3.location Erie, PA
-    %h3.venue The Brewerie at Union Station
     %p.description
-      A one day event to learn about awesome things in the world of open source
-      web development, and to socialize and work together with other
-      developers throughout the day.
+      Erie Day of Code is a one-day event taking place at The Brewerie at Union Station
+      on Saturday, April 25th from 9am - 5pm for web developers, computer scientists, creatives,
+      and overall tech enthusiasts! Through a series of talks, workshops, open discussions, and a catered lunch,
+      we intend to teach and learn about the progression of web development and open source not
+      only in Erie, but globally.
+    %h4
+      Full schedule and speaker list coming soon!
 
-  .mailing-list-signup
+  %section.mailing-list-signup
+    %h2 Subscribe to our mailing list for updates and ticket sales
     %form#mailing-list-subscribe-form{:action => "//eriedayofcode.us10.list-manage.com/subscribe/post?u=3fcd98d64025f034a082fe384&id=bb907d9e18", :method => "post", :name => "mc-embedded-subscribe-form", :target => "_blank"}
-      %h2 Subscribe to our mailing list for updates and ticket sales
       .signup-info
         %input.required.email{:name => "EMAIL", :placeholder => "Email Address", :type => "email", :value => ""}
         %div{:style => "position: absolute; left: -5000px;"}
           %input{:name => "b_3fcd98d64025f034a082fe384_bb907d9e18", :tabindex => "-1", :type => "text", :value => ""}/
         %input.button{:name => "subscribe", :type => "submit", :value => "Subscribe"}/
-  %h4.photo-credit
-    Background photo by:
-    %a{:href => "https://www.facebook.com/CaseyRandPhotography"} Casey Rand
+    %h4.photo-credit
+      Background photo by:
+      %a{:href => "https://www.facebook.com/CaseyRandPhotography"} Casey Rand
+
+  %section.venue-info
+    %h2 Venue
+    %h3.venue-name
+      %a{ href: 'http://www.brewerie.com/history.html', target: "_blank" }
+        The Brewerie at Union Station in Erie, PA
+    %p
+      We chose this historical location at Union Station for Erie Day of Code due to its
+      beautiful interior and delicious food.  Enjoy lunch on us while
+      you learn, socialize, and hack!  The Brewerie is located at
+      123 W. 14th St.
+
+    = image_tag 'the-brewerie-small.jpg'
+    %p.map <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11837.570322879348!2d-80.08201125396731!3d42.12047818712878!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44c8541781e64571!2sThe+Brewerie+at+Union+Station!5e0!3m2!1sen!2sus!4v1425694980645" width="600" height="450" frameborder="0" style="border:0"></iframe>

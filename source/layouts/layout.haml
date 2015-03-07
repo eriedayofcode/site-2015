@@ -26,6 +26,7 @@
           %li= link_to 'Home', '/'
           %li= link_to 'Venue', '/venue.html'
           %li= link_to 'Speakers', '/speakers.html'
+          %li= link_to 'Sponsorship', '/sponsorship.html'
 
         %ul.social-nav
           %li
@@ -38,4 +39,9 @@
       %header.page-header
         %h1.title Erie Day of Code
 
-      .content= yield
+      .content
+        = yield
+        %footer
+          .contact
+            For more questions or more information, please contact
+            = mail_to("contact@eriedayofcode.com")

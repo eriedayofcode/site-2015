@@ -5,16 +5,17 @@ title: Speakers | Erie Day of Code
 .speakers
   %h1 Speakers
 
-  %p
-    Erie Day of Code is proud to be hosting some speakers to blah blah blah
-    I need better filler content
+  %h4.blurb
+    Some information about our first three speakers, more to follow soon!
 
   - speakers.each do |speaker|
     .speaker
-      = image_tag(speaker.image, class: 'speaker-img')
-      %h2.speaker-name= speaker.name
-      %p.about= speaker.about
-      %h2.talk-title= speaker.talk_title
-      %p.abstract= speaker.abstract
+      .bio
+        = image_tag(speaker.image, class: 'speaker-img')
+        %h2.speaker-name= speaker.name
+        %p.about= speaker.about
+      .talk
+        %h2.talk-title= speaker.talk_title
+        %p.abstract= speaker.abstract
 
   %h2 More to be announced soon!

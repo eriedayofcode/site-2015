@@ -1,7 +1,17 @@
 .landing-page {
     @include fill-parent();
-    h2, h3, h4, h5 {
-      color: white;
+
+    section {
+      padding-bottom: 20px;
+      border-bottom: 2px dashed $blue;
+
+      &:first-child {
+        border-bottom: none;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
     }
 }
 
@@ -18,6 +28,9 @@
 }
 
 .event-info {
+    h2, h3, h4, h5 {
+      color: white;
+    }
     .date {
         font-size: 3rem;
         margin: 25px;
@@ -32,7 +45,22 @@
     }
 }
 
+.venue-info {
+  .map {
+    @include media($mobile) {
+      display: none;
+    }
+    @include media($tablet) {
+      display: block;
+    }
+    text-align: center;
+  }
+}
+
 .mailing-list-signup {
+    h2, h3, h4, h5 {
+      color: white;
+    }
     @include fill-parent();
     margin: 40px auto;
     .signup-info {
