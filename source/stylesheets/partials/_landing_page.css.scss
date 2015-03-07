@@ -1,9 +1,17 @@
-$light-color: #FCBD3D;
-
 .landing-page {
     @include fill-parent();
-    h2, h3, h4, h5 {
-      color: white;
+
+    section {
+      padding-bottom: 20px;
+      border-bottom: 2px dashed $blue;
+
+      &:first-child {
+        border-bottom: none;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
     }
 }
 
@@ -11,15 +19,18 @@ $light-color: #FCBD3D;
   font-weight: normal;
 
   a {
-      color: $light-color;
+      color: $secondary-color;
 
       &:hover {
-          color: lighten($light-color, 10%);
+          color: darken($secondary-color, 10%);
       }
   }
 }
 
 .event-info {
+    h2, h3, h4, h5 {
+      color: white;
+    }
     .date {
         font-size: 3rem;
         margin: 25px;
@@ -34,13 +45,28 @@ $light-color: #FCBD3D;
     }
 }
 
+.venue-info {
+  .map {
+    @include media($mobile) {
+      display: none;
+    }
+    @include media($tablet) {
+      display: block;
+    }
+    text-align: center;
+  }
+}
+
 .mailing-list-signup {
+    h2, h3, h4, h5 {
+      color: white;
+    }
     @include fill-parent();
     margin: 40px auto;
     .signup-info {
     }
     .button {
-        background-color: $light-color;
+        background-color: $secondary-color;
         border-radius: none;
         border: none;
         display: inline-block;
@@ -50,7 +76,7 @@ $light-color: #FCBD3D;
         min-width: 28%;
 
         &:hover {
-            background-color: lighten($light-color, 15%);
+            background-color: darken($secondary-color, 15%);
         }
     }
     .email {

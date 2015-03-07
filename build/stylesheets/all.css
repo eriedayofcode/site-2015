@@ -4,28 +4,34 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 5, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+/* line 14, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
 html {
   background: url(/images/erie-bayfront.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
-  /* line 12, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  background-size: cover;
+  background-position: 0px 0px;
+  background-color: black; }
+  /* line 23, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
   html a {
-    color: #FCBD3D; }
-    /* line 15, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    color: #ffdd77; }
+    /* line 26, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
     html a:hover {
-      color: #fdce6f; }
+      color: #ffd044; }
+  /* line 31, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  html img {
+    width: 100%;
+    height: 100%; }
 
-/* line 21, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+/* line 37, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
 #main {
-  padding-top: 80px;
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  color: white; }
+  padding-top: 80px;
+  color: #ccddcc; }
   /* line 17, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
   #main:before, #main:after {
     content: " ";
@@ -34,95 +40,206 @@ html {
   #main:after {
     clear: both; }
 
-/* line 27, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+/* line 44, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+#nav-bar {
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  width: 100%; }
+
+/* line 51, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+.main-nav {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 17, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+  .main-nav:before, .main-nav:after {
+    content: " ";
+    display: table; }
+  /* line 23, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+  .main-nav:after {
+    clear: both; }
+  /* line 54, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .main-nav .site-nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 8.5298%;
+    display: block;
+    padding-left: 0;
+    font-size: 1.5rem; }
+    /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+    .main-nav .site-nav:last-child {
+      margin-right: 0; }
+    /* line 62, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    .main-nav .site-nav li {
+      padding-right: 10px; }
+  /* line 67, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .main-nav .social-nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-right: 0;
+    text-align: right;
+    font-size: 1.5rem; }
+    /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+    .main-nav .social-nav:last-child {
+      margin-right: 0; }
+    /* line 73, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    .main-nav .social-nav li {
+      padding-left: 10px; }
+  /* line 78, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .main-nav li {
+    display: inline-block; }
+
+/* line 83, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
 .page-header {
-  text-align: center;
-  margin-bottom: 50px; }
+  text-align: center; }
   @media screen and (min-width: 500px) {
-    /* line 27, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    /* line 83, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
     .page-header {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 65.88078%;
-      margin-left: 17.05961%; }
+      width: 82.94039%;
+      margin-left: 8.5298%; }
       /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
       .page-header:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 500px) {
-    /* line 27, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    /* line 83, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
     .page-header {
       width: 100%; } }
-  /* line 40, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  /* line 89, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
   .page-header .title {
-    font-size: 5rem; }
+    font-size: 5rem;
+    color: white;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.9); }
 
-/* line 45, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+/* line 96, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
 .content {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+  text-align: center; }
+  @media screen and (min-width: 500px) {
+    /* line 96, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    .content {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%; }
+      /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+      .content:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 500px) {
+    /* line 96, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    .content {
+      width: 100%; } }
+  /* line 105, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .content p {
+    text-align: justify; }
+  /* line 109, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .content h2, .content h3, .content h4, .content h5 {
+    color: #ffdd77; }
+
+/* line 114, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+.content-landing {
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.9);
   padding: 15px;
   margin-bottom: 40px;
   text-align: center; }
   @media screen and (min-width: 500px) {
-    /* line 45, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
-    .content {
+    /* line 114, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    .content-landing {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 65.88078%;
-      margin-left: 17.05961%; }
+      width: 82.94039%;
+      margin-left: 8.5298%; }
       /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
-      .content:last-child {
+      .content-landing:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 500px) {
-    /* line 45, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
-    .content {
+    /* line 114, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+    .content-landing {
       width: 100%; } }
-  /* line 58, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
-  .content p {
+  /* line 123, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .content-landing p {
     text-align: justify; }
-  /* line 62, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
-  .content h2, .content h3, .content h4, .content h5 {
-    color: #FCBD3D; }
+  /* line 127, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  .content-landing h2, .content-landing h3, .content-landing h4, .content-landing h5 {
+    color: #ffdd77; }
 
-/* line 3, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 1, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .landing-page {
   width: 100%; }
-  /* line 5, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
-  .landing-page h2, .landing-page h3, .landing-page h4, .landing-page h5 {
-    color: white; }
+  /* line 4, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  .landing-page section {
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #223344; }
+    /* line 8, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .landing-page section:first-child {
+      border-bottom: none; }
+    /* line 12, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .landing-page section:last-child {
+      border-bottom: none; }
 
-/* line 10, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 18, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .photo-credit {
   font-weight: normal; }
-  /* line 13, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  /* line 21, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
   .photo-credit a {
-    color: #FCBD3D; }
-    /* line 16, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    color: #ffdd77; }
+    /* line 24, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
     .photo-credit a:hover {
-      color: #fdce6f; }
+      color: #ffd044; }
 
-/* line 23, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 31, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.event-info h2, .event-info h3, .event-info h4, .event-info h5 {
+  color: white; }
+/* line 34, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .event-info .date {
   font-size: 3rem;
   margin: 25px; }
-/* line 27, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 38, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .event-info .location {
   font-size: 2.5rem;
   margin: 25px; }
-/* line 31, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 42, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .event-info .venue {
   font-size: 2rem;
   margin: 25px; }
 
-/* line 37, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+/* line 49, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.venue-info .map {
+  text-align: center; }
+  @media screen and (max-width: 500px) {
+    /* line 49, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .venue-info .map {
+      display: none; } }
+  @media screen and (min-width: 500px) {
+    /* line 49, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .venue-info .map {
+      display: block; } }
+
+/* line 60, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .mailing-list-signup {
   width: 100%;
   margin: 40px auto; }
-  /* line 42, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  /* line 61, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  .mailing-list-signup h2, .mailing-list-signup h3, .mailing-list-signup h4, .mailing-list-signup h5 {
+    color: white; }
+  /* line 68, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
   .mailing-list-signup .button {
-    background-color: #FCBD3D;
+    background-color: #ffdd77;
     border-radius: none;
     border: none;
     display: inline-block;
@@ -130,10 +247,10 @@ html {
     color: #111;
     height: 2.5rem;
     min-width: 28%; }
-    /* line 52, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    /* line 78, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
     .mailing-list-signup .button:hover {
-      background-color: #fdd788; }
-  /* line 56, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+      background-color: #ffca2b; }
+  /* line 82, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
   .mailing-list-signup .email {
     width: 70%;
     height: 2.5rem;
@@ -168,3 +285,20 @@ html {
   /* line 39, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
   .sponsorship td.level {
     font-weight: bold; }
+
+/* line 2, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_speakers_page.css.scss */
+.speakers .speaker-img {
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px; }
+/* line 8, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_speakers_page.css.scss */
+.speakers .speaker {
+  border-bottom: 2px dashed #223344;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+  /* line 13, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_speakers_page.css.scss */
+  .speakers .speaker .talk-title {
+    color: #ffaa44; }
+/* line 18, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_speakers_page.css.scss */
+.speakers .blurb {
+  font-weight: normal; }

@@ -1,0 +1,21 @@
+---
+title: Speakers | Erie Day of Code
+---
+
+.speakers
+  %h1 Speakers
+
+  %h4.blurb
+    Some information about our first three speakers, more to follow soon!
+
+  - speakers.each do |speaker|
+    .speaker
+      .bio
+        = image_tag(speaker.image, class: 'speaker-img')
+        %h2.speaker-name= speaker.name
+        %p.about= speaker.about
+      .talk
+        %h2.talk-title= speaker.talk_title
+        %p.abstract= speaker.abstract
+
+  %h2 More to be announced soon!
