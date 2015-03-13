@@ -13,9 +13,13 @@ title: Speakers | Erie Day of Code
       .bio
         = image_tag(speaker.image, class: 'speaker-img')
         %h2.speaker-name= speaker.name
-        %p.about= speaker.about
+        %p.about
+          :markdown
+            #{speaker.about}
       .talk
         %h2.talk-title= speaker.talk_title
-        %p.abstract= speaker.abstract
+        %p.abstract
+          :markdown
+            #{speaker.abstract}
 
   %h2 More to be announced soon!
