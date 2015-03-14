@@ -86,3 +86,18 @@
         padding-right: 10px;
     }
 }
+
+.sponsors {
+  .sponsor-level {
+    border-bottom: 1px dashed $blue;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .sponsor {
+    max-width: 500px;
+    max-height: 300px;
+  }
+}
