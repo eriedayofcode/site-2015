@@ -39,11 +39,19 @@
     Automation is cheap, fast, repeatable and accurate-- not to mention way more fun than repetition.
 
     In this talk Jeff Koenig will discuss the advantages of automated tests, some basics about what automated tests should be, and what they should NOT be. He'll also dive into why and how automation and continuous integration should be part of your organization's culture.
-  show: true
+  show: false
 
 - name: Oto Hlincik
   image: /images/speakers/oto-hlincik.jpg
   about: Oto!
+  talk_title: N/A
+  abstract: N/A
+  show: false
+
+- name: Nick Quaranto
+  image: /images/speakers/nick-quaranto.jpg
+  twitter: "@qrush"
+  about: Nick Quaranto from Basecamp
   talk_title: N/A
   abstract: N/A
   show: false

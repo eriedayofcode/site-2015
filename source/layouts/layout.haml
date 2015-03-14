@@ -41,7 +41,8 @@
 
       .content
         = yield
-        %footer
+        %footer#site-footer
           .contact
-            For more questions or more information, please contact
-            = mail_to("contact@eriedayofcode.com")
+            For more questions or more information, please contact #{mail_to("contact@eriedayofcode.com")}
+
+          %h5.organizers Erie Day of Code is organized by members of the #{link_to("Erie.rb User Group", "http://meetup.com/erie-rb", target: '_blank')}
