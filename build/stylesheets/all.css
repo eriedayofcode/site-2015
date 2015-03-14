@@ -178,6 +178,10 @@ html {
   .content-landing h2, .content-landing h3, .content-landing h4, .content-landing h5 {
     color: #ffdd77; }
 
+/* line 132, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+#site-footer .organizers {
+  color: #ffaa44; }
+
 /* line 1, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .landing-page {
   width: 100%; }
