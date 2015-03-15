@@ -1,0 +1,61 @@
+- name: Avalon Hotel & Conference Center
+  address: |
+    16 W 10th St
+
+    Erie, PA 16501
+  phone: (814) 459-2220
+  url: http://avalonerie.com
+  type: hotel
+
+- name: Sheraton Erie Bayfront Hotel
+  address: |
+    55 W Bay Rd
+
+    Erie, PA 16507
+  phone: (814) 454-2005
+  url: http://sheratoneriebayfront.com
+  type: hotel
+
+- name: Downtown Erie Hotel
+  address: |
+    18 W 18th St
+
+    Erie, PA 16501
+  phone: (814) 456-2961
+  url: http://directhotel.co
+  type: hotel
+
+- name: Knights Inn Erie Downtown
+  address: |
+    205 W 10th St
+
+    Erie, PA 16501
+  phone: (814) 456-6251
+  url: http://knightsinn.com
+  type: hotel
+
+- name: George Carroll House
+  address: |
+    401 Peach Street
+
+    Erie, PA 16507
+  phone: (814) 504-0845
+  url: http://georgecarrollhouse.com
+
+- name: Grape Arbor Bed & Breakfast
+  address: |
+    51 East Main Street
+
+    North East, PA 16428
+  phone: (814) 725-0048
+  url: http://grapearborbandb.com
+  type: bnb
+
+- name: Light on the Lake Bed & Breakfast
+  address: |
+    11934 Seitzinger Road
+
+    North East, PA 16428
+  phone: (814) 725-9115
+  url: http://lightonthelake.com
+  type: bnb

@@ -117,3 +117,49 @@
     max-height: 75px;
   }
 }
+
+.accommodations {
+  h3 {
+    color: $tertiary-color;
+  }
+
+  p {
+    margin: 0;
+  }
+  .accommodation-types {
+    @include outer-container;
+
+    @include media($mobile) {
+      .hotels {
+        @include fill-parent;
+      }
+      .bnb {
+        @include fill-parent;
+      }
+    }
+
+    @include media($tablet) {
+      .hotels {
+        @include span-columns(5 of 10);
+      }
+      .bnb {
+        @include span-columns(5 of 10);
+        @include omega;
+      }
+    }
+  }
+
+  .name {
+    margin-bottom: 0;
+  }
+  .phone, .contact{
+    margin: 0;
+  }
+  h4 {
+    text-align: left;
+  }
+  ul {
+    li {
+    }
+  }
+}

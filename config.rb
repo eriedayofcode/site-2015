@@ -65,6 +65,14 @@ helpers do
       OpenStruct.new speaker
     }.select(&:show)
   end
+
+  def accommodations
+    data = YAML.load_file('accommodations.yml').map { |a| OpenStruct.new a}
+    {
+      hotel: data.select { |a| a.type == 'hotel' },
+      bnb: data.select { |a| a.type == 'bnb' },
+    }
+  end
 end
 
 set :css_dir, 'stylesheets'
