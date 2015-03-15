@@ -101,3 +101,19 @@
     max-height: 300px;
   }
 }
+
+.speakers {
+  ul {
+    margin-left: 0;
+    li {
+      display: inline-block;
+      list-style: none;
+      padding-right: 15px;
+    }
+  }
+  .speaker-img-small {
+    border-radius: 50%;
+    max-width: 75px;
+    max-height: 75px;
+  }
+}

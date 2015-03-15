@@ -11,7 +11,21 @@ title: Erie Day of Code | Sign up for updates!
       we intend to teach and learn about the progression of web development and open source not
       only in Erie, but globally.
     %h4
-      Full schedule and speaker list coming soon!
+      Full schedule coming soon!
+
+  %section.speakers
+    %h2 Speakers
+
+    %p
+      We have an awesome bunch of speakers ready to talk about interesting and fun topics
+      and lead engaging workshops. Check out the #{link_to('Speakers', '/speakers.html')}
+      page for more information on each speaker and their respective talks.
+
+    %ul
+      - speakers.each do |speaker|
+        %li
+          %a{ :href => "http://twitter.com/#{speaker.twitter}" }
+            = image_tag(speaker.image, class: 'speaker-img-small', alt: speaker.name, title: speaker.name)
 
   %section.attend-professional
     %h2 As a Professional why should I attend?
