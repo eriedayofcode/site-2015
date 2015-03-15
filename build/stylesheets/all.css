@@ -179,8 +179,13 @@ html {
     color: #ffdd77; }
 
 /* line 132, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
-#site-footer .organizers {
-  color: #ffaa44; }
+#site-footer {
+  border-top: 2px dashed #223344;
+  margin-top: 20px;
+  padding-top: 20px; }
+  /* line 137, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_layout.scss */
+  #site-footer .organizers {
+    color: #ffaa44; }
 
 /* line 1, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
 .landing-page {

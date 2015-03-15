@@ -129,6 +129,12 @@ html {
   }
 }
 
-#site-footer .organizers {
-  color: $tertiary-color;
+#site-footer {
+  border-top: 2px dashed $blue;
+  margin-top: 20px;
+  padding-top: 20px;
+
+  .organizers {
+    color: $tertiary-color;
+  }
 }
