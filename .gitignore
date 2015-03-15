@@ -9,7 +9,6 @@
 
 # Ignore RVM config files
 .ruby-gemset
-.ruby-version
 
 # Ignore the build directory
 #/build
