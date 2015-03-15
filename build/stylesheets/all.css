@@ -272,6 +272,20 @@ html {
   max-width: 500px;
   max-height: 300px; }
 
+/* line 106, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.speakers ul {
+  margin-left: 0; }
+  /* line 108, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+  .speakers ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px; }
+/* line 114, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.speakers .speaker-img-small {
+  border-radius: 50%;
+  max-width: 75px;
+  max-height: 75px; }
+
 /* line 8, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
 .sponsorship .reasons li {
   text-align: left;
