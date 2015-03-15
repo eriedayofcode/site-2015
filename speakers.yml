@@ -1,6 +1,15 @@
+- name: Nick Quaranto
+  image: /images/speakers/nick-quaranto.png
+  twitter: "qrush"
+  about: Programmer [@37signals](http://twitter.com/37signals). GIF hoarder. Starter of too many side projects.
+  talk_title: "Space Weather: Ruby and Swift's Influence in the Magnetosphere"
+  abstract: |
+    Ruby's on its way out (or so we think), Swift's on its way in (if Apple has its way), and a solar flare could knock out our electricity grid worldwide for weeks. We'll contemplate the (in)significance of these two communities and evaluate our own place in the programming universe.
+  show: true
+
 - name: Carol (Nichols || Goulding)
   image: /images/speakers/carol-nichols.jpg
-  twitter: "@carols10cents"
+  twitter: "carols10cents"
   about: Carol is currently the Hammer of Justice at Think Through Math in the lovely Pittsburgh, PA. She loves hugs, connecting people, Rust, Ruby, vinyl, percussion, home improvement, and being disappointed by Pittsburgh sports. Her twitter handle is [@carols10cents](https://twitter.com/carols10cents) and there are TWO jokes contained within its depths.
   talk_title: How to Start Contributing to Open Source
   abstract: Starting to contribute to open source can be overwhelming. The tips in this workshop will help you find a path to contributing with less anxiety and confusion. Not sure what project to contribute to? Examine the OSS projects you use for recent activity, small open issues, and friendly maintainers. Not sure what to work on? Documentation, tests, and bug triaging are important contributions to open source that are much appreciated, often overlooked, and usually smaller in scope than a code change. Learn about Pull Request etiquette, what happens after you send in your work, and what it's like in a maintainer's shoes to take the mystery out of the process. Help make the open source world a better place!
@@ -8,23 +17,16 @@
 
 - name: Chris Geihsler
   image: /images/speakers/chris-geihsler.jpg
-  twitter: "@seejee"
+  twitter: "seejee"
   about: Chris has been writing code professionally for 12 years in the healthcare and education industries using C#, Ruby, and JavaScript. He currently works at Think Through Math where he builds a product that helps more than 3,000,000 kids get better at math. At home, he tries to fend off his four cats while he hacks on projects in Node, Elixir, and Go. His cats usually win.
   talk_title: What .NET can Learn from Ruby (and vice versa.)
-  abstract: C# and Ruby are both great languages for building applications. The two are different in many ways, but Chris will argue that the experience of writing, testing, and shipping software in either is not a fundamentally different experience. You'll hear about his time developing software in both languages, and he'll share some of the strengths and weaknesses of each platform. Moreover, Chris will show that the two communities have a lot to learn from each other, and that he has become a substantially better developer as a result of working in a variety of programming languages.
-  show: true
-
-- name: Matthew Machuga
-  image: /images/speakers/matthew-machuga.png
-  twitter: "@machuga"
-  about: Machuga is an Erie native with a strong love of building software and communities.  He currently works Think Through Math, organizes Erie.rb, and is a committee member for Erie Day of Code.  Even more than his creative endeavors, Matt loves spending time with his wife and daughter.
-  talk_title: Introduction to Effectively Using Git
-  abstract: A hands on workshop on how to utilize the verison control system, git, for more than just a place to dump code.  Learn to how to create feature branches and merge them back in when the feature is ready.  Discover how to write effective commit messages that will allow you to easily search and discover why something was changed in the past.  Also learn how git can get you out of trouble quickly and easily.
+  abstract: |
+    C# and Ruby are both great languages for building applications. The two are different in many ways, but Chris will argue that the experience of writing, testing, and shipping software in either is not a fundamentally different experience. You'll hear about his time developing software in both languages, and he'll share some of the strengths and weaknesses of each platform. Moreover, Chris will show that the two communities have a lot to learn from each other, and that he has become a substantially better developer as a result of working in a variety of programming languages.
   show: true
 
 - name: Jeff Koenig
   image: /images/speakers/jeff-koenig.jpg
-  twitter: "@jeffkoenig"
+  twitter: "jeffkoenig"
   about: |-
     Many years ago, Jeff, “El Jefe”, “Danger”, “Not afraid of blameless postmortems”, Koenig began experimenting with a long hollow fish fry that had an explosive mixture of sodium, Jenkins, and broken tests.
     He put this device on an inclined board and aimed it at his pool. Then he poured hydrochloric coffee with paint chips in it; and the whole thing shaved yaks for ten minutes.
@@ -39,19 +41,20 @@
     Automation is cheap, fast, repeatable and accurate-- not to mention way more fun than repetition.
 
     In this talk Jeff Koenig will discuss the advantages of automated tests, some basics about what automated tests should be, and what they should NOT be. He'll also dive into why and how automation and continuous integration should be part of your organization's culture.
-  show: false
+  show: true
+
+- name: Matthew Machuga
+  image: /images/speakers/matthew-machuga.png
+  twitter: "machuga"
+  about: Machuga is an Erie native with a strong love of building software and communities.  He currently works Think Through Math, organizes Erie.rb, and is a committee member for Erie Day of Code.  Even more than his creative endeavors, Matt loves spending time with his wife and daughter.
+  talk_title: Introduction to Effectively Using Git
+  abstract: A hands on workshop on how to utilize the verison control system, git, for more than just a place to dump code.  Learn to how to create feature branches and merge them back in when the feature is ready.  Discover how to write effective commit messages that will allow you to easily search and discover why something was changed in the past.  Also learn how git can get you out of trouble quickly and easily.
+  show: true
 
 - name: Oto Hlincik
   image: /images/speakers/oto-hlincik.jpg
+  twitter:
   about: Oto!
-  talk_title: N/A
-  abstract: N/A
-  show: false
-
-- name: Nick Quaranto
-  image: /images/speakers/nick-quaranto.jpg
-  twitter: "@qrush"
-  about: Nick Quaranto from Basecamp
   talk_title: N/A
   abstract: N/A
   show: false

@@ -6,13 +6,17 @@ title: Speakers | Erie Day of Code
   %h1 Speakers
 
   %h4.blurb
-    Some information about our first three speakers, more to follow soon!
+    Some information about our first speakers, more to follow soon!
 
   - speakers.each do |speaker|
     .speaker
       .bio
-        = image_tag(speaker.image, class: 'speaker-img')
+        %a{ :href => "http://twitter.com/#{speaker.twitter}" }
+          = image_tag(speaker.image, class: 'speaker-img')
         %h2.speaker-name= speaker.name
+        %h4.twitter-name
+          %a{ :href => "http://twitter.com/#{speaker.twitter}" } @#{speaker.twitter}
+
         %p.about
           :markdown
             #{speaker.about}
