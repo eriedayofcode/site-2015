@@ -286,6 +286,62 @@ html {
   max-width: 75px;
   max-height: 75px; }
 
+/* line 122, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.accommodations h3 {
+  color: #ffaa44; }
+/* line 126, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.accommodations p {
+  margin: 0; }
+/* line 129, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.accommodations .accommodation-types {
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 17, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+  .accommodations .accommodation-types:before, .accommodations .accommodation-types:after {
+    content: " ";
+    display: table; }
+  /* line 23, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bourbon-3.1.8/app/assets/stylesheets/addons/_clearfix.scss */
+  .accommodations .accommodation-types:after {
+    clear: both; }
+  @media screen and (max-width: 500px) {
+    /* line 133, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .accommodations .accommodation-types .hotels {
+      width: 100%; }
+    /* line 136, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .accommodations .accommodation-types .bnb {
+      width: 100%; } }
+  @media screen and (min-width: 500px) {
+    /* line 142, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .accommodations .accommodation-types .hotels {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 48.57871%; }
+      /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+      .accommodations .accommodation-types .hotels:last-child {
+        margin-right: 0; }
+    /* line 145, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+    .accommodations .accommodation-types .bnb {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 48.57871%;
+      margin-right: 0; }
+      /* line 40, /Users/machuga/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/neat-1.5.0/app/assets/stylesheets/grid/_span-columns.scss */
+      .accommodations .accommodation-types .bnb:last-child {
+        margin-right: 0; } }
+/* line 152, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.accommodations .name {
+  margin-bottom: 0; }
+/* line 155, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.accommodations .phone, .accommodations .contact {
+  margin: 0; }
+/* line 158, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_landing_page.css.scss */
+.accommodations h4 {
+  text-align: left; }
+
 /* line 8, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_sponsorship_page.css.scss */
 .sponsorship .reasons li {
   text-align: left;
