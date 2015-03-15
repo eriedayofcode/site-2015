@@ -31,19 +31,18 @@ title: Erie Day of Code | Sign up for updates!
     %h2 As a Professional why should I attend?
 
     %p
-      Working with code day in and day out is a fun and intensive task. There are always new tools, languages, or patterns
+      Working with code day in and day out is a fun and intensive undertaking. There are always new tools, languages, or patterns
       to help make your job easier, but it's often hard to keep up or sift through the tools and concepts to find the best of bunch.
       Erie Day of Code gives you a chance to see several talks and participate in workshops to check out some new technology or
       concepts, allows you to connect with peers, both local and regional, and will help you see more of the Erie development community.
-      We have developers, it's just not so easy for us to find each other sometimes! Come connect with peers over an included lunch,
-      learn some new things, and meet some new friends.
+      It's just not so easy for us developers to find each other sometimes! Come connect with peers over an included lunch, learn some new things, and meet some new friends.
 
 
   %section.attend-student
     %h2 As a Student why should I attend?
 
     %p
-      No matter what year you're currently at in college (or even high school), this event is sure to teach you a whole lot about
+      No matter what year you're in currently at college (or even high school), this event is sure to teach you a whole lot about
       real world development tools and strategies.  Along with numerous talks and hands on workshops, you'll have a chance to connect
       with other students in the area and developers of all levels of experience.  You'll be able to get a peek inside their day-to-day
       tasks, ask them questions about how to get started, and make some new contacts with potential employers.  Take the opporunity to
@@ -115,11 +114,16 @@ title: Erie Day of Code | Sign up for updates!
                 #{a.address}
             %p.phone= a.phone
 
-    %p If none of these accommodations suit you, please visit #{link_to('Visit PA', 'http://www.visiteriepa.com/where-to-stay')}, or contact #{mail_to('contact', 'contact@eriedayofcode.com')} us to help make arrangements!
+    %p If none of these accommodations suit you, #{link_to('Visit PA', 'http://www.visiteriepa.com/where-to-stay')}, or email #{mail_to('contact', 'contact@eriedayofcode.com')} and we'll help you make arrangements!
 
 
   %section.sponsors
     %h2 A HUGE thank you to our sponsors!
+
+    .sponsor-level
+      %h3 Event Partner
+      %a{ :href => 'http://atomic74.com' }
+        %img.sponsor{ :src => '/images/sponsors/tungsten-logo.png', :title => 'Tungsten Creative Group' }
 
     .sponsor-level
       %h3 Gold Sponsors
