@@ -24,6 +24,15 @@
     C# and Ruby are both great languages for building applications. The two are different in many ways, but Chris will argue that the experience of writing, testing, and shipping software in either is not a fundamentally different experience. You'll hear about his time developing software in both languages, and he'll share some of the strengths and weaknesses of each platform. Moreover, Chris will show that the two communities have a lot to learn from each other, and that he has become a substantially better developer as a result of working in a variety of programming languages.
   show: true
 
+- name: Matt Patterson
+  image: /images/speakers/matt-patterson.jpg
+  twitter: "mattpattwasat"
+  about: "Matt, who also goes by 'mattpatt', is a software engineer and resident PHP apologist at Braintree.  When he's not writing code at work, he's usually writing code at home, watching a Penguins or Blackhawks game, or exploring the Second City."
+  talk_title: "Engineering for Excellence:  Keeping the Bar High in a Growing Team"
+  abstract: |
+    Culture.  Code quality.  Knowledge sharing.  These are challenges even for small teams, and they may seem like impossibilities for teams that are big and getting bigger.  This talk will explore some of the ways that Braintree engineers for excellence, even with a rapidly-growing product and rapidly-growing product team.
+  show: true
+
 - name: Jeff Koenig
   image: /images/speakers/jeff-koenig.jpg
   twitter: "jeffkoenig"
