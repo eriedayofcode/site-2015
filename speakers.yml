@@ -53,8 +53,8 @@
 
 - name: Oto Hlincik
   image: /images/speakers/oto-hlincik.jpg
-  twitter:
-  about: Oto!
-  talk_title: N/A
-  abstract: N/A
-  show: false
+  twitter: "ohlincik"
+  about: Oto is an entrepreneur, developer and overall computer enthusiast. A former hockey player from Slovakia turned web developer and now calling Erie his home. He is currently the Web Division Director at Tungsten Creative Group, helps to organize Erie.rb and lends a hand in organizing the Erie Day of Code. Avid golfer in the Summer, he makes sure that all his web development cravings are satisfied during the infamous Winter Erie months.
+  talk_title: Interactive apps with Angular JS and Parse
+  abstract: A hands on workshop on how to setup and use Google's Angular JS framework to create highly interactive web applications backed by Facebook's Parse cloud API.  Learn the basics of setting up an Angular JS web app, hook in your custom services and connect it to a web service API.
+  show: true

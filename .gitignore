@@ -7,6 +7,9 @@
 # Ignore bundler config
 /.bundle
 
+# Ignore RVM config files
+.ruby-gemset
+
 # Ignore the build directory
 #/build
 
