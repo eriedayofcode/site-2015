@@ -73,6 +73,20 @@ helpers do
       bnb: data.select { |a| a.type == 'bnb' },
     }
   end
+
+  def find_speaker(name)
+    speakers.find { |s| s.name == name }
+  end
+
+  def talks
+    speakers.map { |s|
+      {
+        title: s.talk_title,
+        speaker: s.name,
+        abstract: s.abstract
+      }
+    }
+  end
 end
 
 set :css_dir, 'stylesheets'

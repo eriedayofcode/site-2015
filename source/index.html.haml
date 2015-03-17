@@ -20,6 +20,55 @@ title: Erie Day of Code | Sign up for updates!
       %a.button{ :href => 'https://eriedayofcode.ticketleap.com/erie-day-of-code/dates/Apr-25-2015_at_0900AM' }
         Get Your Ticket Now
 
+  %section.schedule
+    %h2 Schedule
+
+    .timeslot
+      .time 08:00am - 08:50am
+      .img
+        %i.fa.fa-sign-in
+      .info
+        %h3 Registration
+    .timeslot
+      .time 08:50am - 09:00am
+      .img
+        %i.fa.fa-comment
+      .info
+        %h3 Opening Statements
+    .timeslot
+      .time 09:00am - 09:30am
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Nick Quaranto') }
+    .timeslot
+      .time 09:45pm - 10:15am
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Matt Patterson') }
+    .timeslot
+      .time 10:30am - 11:00am
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Jeff Koenig') }
+    .timeslot
+      .time 11:15am - 11:45am
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Chris Geihsler') }
+    .timeslot
+      .time 12:00pm - 1:00pm
+      .img
+        %i.fa.fa-cutlery
+      .info
+        %h3 Lunch provided by The Brewerie
+    .timeslot
+      .time 01:00pm - 01:30pm
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Carol (Nichols || Goulding)') }
+    .timeslot
+      .time 01:45pm - 02:45pm
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Matthew Machuga') }
+    .timeslot
+      .time 03:00pm - 04:00pm
+      = partial 'speaker_schedule', locals: { speaker: find_speaker('Oto Hlincik') }
+    .timeslot
+      .time 04:00pm - 05:00pm
+      .img
+        %i.fa.fa-heart
+      .info
+        %h3 Hack Room Breakout Sessions + Hangouts
+
   %section.speakers
     %h2 Speakers
 

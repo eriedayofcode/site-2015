@@ -33,6 +33,51 @@
   }
 }
 
+.schedule {
+  .timeslot {
+    h3, h4 {
+      margin-top: 0
+    }
+
+    h4 {
+      color: $tertiary-color;
+    }
+
+    border-bottom: 1px dashed $blue;
+    padding-top: 10px;
+
+    .img {
+      font-size: 2rem;
+    }
+    @include outer-container;
+
+    @include media($mobile) {
+      .time {
+        @include fill-parent;
+      }
+      .img {
+        @include fill-parent;
+      }
+      .info {
+        @include fill-parent;
+      }
+    }
+
+    @include media($tablet) {
+      .time {
+        @include span-columns(3 of 10);
+      }
+      .img {
+        @include span-columns(1 of 10);
+      }
+      .info {
+        @include span-columns(6 of 10);
+        @include omega;
+      }
+    }
+  }
+}
+
 .photo-credit {
   font-weight: normal;
 
@@ -129,11 +174,12 @@
       padding-right: 15px;
     }
   }
-  .speaker-img-small {
-    border-radius: 50%;
-    max-width: 75px;
-    max-height: 75px;
-  }
+}
+
+.speaker-img-small {
+  border-radius: 50%;
+  max-width: 75px;
+  max-height: 75px;
 }
 
 .accommodations {
