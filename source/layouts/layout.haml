@@ -27,7 +27,6 @@
           %li= link_to 'Venue', '/venue.html'
           %li= link_to 'Speakers', '/speakers.html'
           %li= link_to 'Sponsorship', '/sponsorship.html'
-          %li= link_to 'Code of Conduct', '/code_of_conduct.html'
 
         %ul.social-nav
           %li
@@ -45,5 +44,8 @@
         %footer#site-footer
           .contact
             If you have questions or need more information, send an email to #{mail_to("contact@eriedayofcode.com")}
+
+          .conduct
+            Please review our #{link_to 'Code of Conduct', '/code-of-conduct.html'}
 
           %h5.organizers Erie Day of Code is organized by members of the #{link_to("Erie.rb User Group", "http://meetup.com/erie-rb", target: '_blank')}
