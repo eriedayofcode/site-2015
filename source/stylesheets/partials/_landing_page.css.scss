@@ -6,13 +6,31 @@
       border-bottom: 2px dashed $blue;
 
       &:first-child {
-        border-bottom: none;
       }
 
       &:last-child {
         border-bottom: none;
       }
     }
+}
+
+.tickets {
+  p {
+    text-align: center;
+  }
+  .button {
+    background-color: $secondary-color;
+    border: none;
+    display: inline-block;
+    line-height: 1rem;
+    color: #111;
+    padding: 20px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: darken($secondary-color, 15%);
+    }
+  }
 }
 
 .photo-credit {
