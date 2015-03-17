@@ -392,3 +392,7 @@ html {
 /* line 18, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_speakers_page.css.scss */
 .speakers .blurb {
   font-weight: normal; }
+
+/* line 3, /Users/machuga/Development/eriedayofcode/site/source/stylesheets/partials/_conduct_page.scss */
+.code-of-conduct .contacts h3 {
+  text-align: left; }
