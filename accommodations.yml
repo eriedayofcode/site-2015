@@ -16,32 +16,6 @@
   url: http://sheratoneriebayfront.com
   type: hotel
 
-- name: Downtown Erie Hotel
-  address: |
-    18 W 18th St
-
-    Erie, PA 16501
-  phone: (814) 456-2961
-  url: http://directhotel.co
-  type: hotel
-
-- name: Knights Inn Erie Downtown
-  address: |
-    205 W 10th St
-
-    Erie, PA 16501
-  phone: (814) 456-6251
-  url: http://knightsinn.com
-  type: hotel
-
-- name: George Carroll House
-  address: |
-    401 Peach Street
-
-    Erie, PA 16507
-  phone: (814) 504-0845
-  url: http://georgecarrollhouse.com
-
 - name: Grape Arbor Bed & Breakfast
   address: |
     51 East Main Street
