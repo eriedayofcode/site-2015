@@ -55,9 +55,9 @@
 - name: Matthew Machuga
   image: /images/speakers/matthew-machuga.png
   twitter: "machuga"
-  about: Machuga is an Erie native with a strong love of building software and communities.  He currently works Think Through Math, organizes Erie.rb, and is a committee member for Erie Day of Code.  Even more than his creative endeavors, Matt loves spending time with his wife and daughter.
+  about: Machuga is an Erie native with a strong love of building software and communities.  He currently works at Think Through Math, organizes Erie.rb, and is a committee member for Erie Day of Code.  Even more than his creative endeavors, Matt loves spending time with his wife and daughter.
   talk_title: Introduction to Effectively Using Git
-  abstract: A hands on workshop on how to utilize the verison control system, git, for more than just a place to dump code.  Learn to how to create feature branches and merge them back in when the feature is ready.  Discover how to write effective commit messages that will allow you to easily search and discover why something was changed in the past.  Also learn how git can get you out of trouble quickly and easily.
+  abstract: A hands on workshop on how to utilize the verison control system, git, for more than just a place to dump code.  Learn to how to create feature branches, merge them back when ready, and avoid messy merge conflicts.  Discover how to write effective commit messages that will allow you to easily search and discover why something was changed in the past. There may even be discussions on time travel, changing the past, and possible repercussions or gains!
   show: true
 
 - name: Oto Hlincik
